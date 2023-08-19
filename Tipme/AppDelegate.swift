@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tipme
 //
-//  Created by Artem on 19.08.2023.
+//  Created by "Hello, Swift!" on 19.08.2023.
 //
 
 import UIKit
