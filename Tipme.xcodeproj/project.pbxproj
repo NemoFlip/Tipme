@@ -10,9 +10,9 @@
 		AC2C54422A90C562002532DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C54412A90C562002532DC /* AppDelegate.swift */; };
 		AC2C54442A90C562002532DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C54432A90C562002532DC /* SceneDelegate.swift */; };
 		AC2C54462A90C562002532DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C54452A90C562002532DC /* ViewController.swift */; };
-		AC2C54492A90C562002532DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2C54472A90C562002532DC /* Main.storyboard */; };
 		AC2C544B2A90C563002532DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2C544A2A90C563002532DC /* Assets.xcassets */; };
 		AC2C54562A90C5B1002532DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2C54552A90C5B1002532DC /* LaunchScreen.storyboard */; };
+		AC2C54582A90C730002532DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2C54572A90C730002532DC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		AC2C54412A90C562002532DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC2C54432A90C562002532DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC2C54452A90C562002532DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC2C54482A90C562002532DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC2C544A2A90C563002532DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2C544F2A90C563002532DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2C54552A90C5B1002532DC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2C54572A90C730002532DC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				AC2C54412A90C562002532DC /* AppDelegate.swift */,
 				AC2C54432A90C562002532DC /* SceneDelegate.swift */,
 				AC2C54452A90C562002532DC /* ViewController.swift */,
-				AC2C54472A90C562002532DC /* Main.storyboard */,
+				AC2C54572A90C730002532DC /* Main.storyboard */,
 				AC2C54552A90C5B1002532DC /* LaunchScreen.storyboard */,
 				AC2C544A2A90C563002532DC /* Assets.xcassets */,
 				AC2C544F2A90C563002532DC /* Info.plist */,
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2C54582A90C730002532DC /* Main.storyboard in Resources */,
 				AC2C54562A90C5B1002532DC /* LaunchScreen.storyboard in Resources */,
 				AC2C544B2A90C563002532DC /* Assets.xcassets in Resources */,
-				AC2C54492A90C562002532DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,17 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AC2C54472A90C562002532DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC2C54482A90C562002532DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC2C54502A90C563002532DC /* Debug */ = {
